@@ -1,0 +1,81 @@
+<!-- 
+This is a follow along with the course work included with the video instructions.
+-->
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>My Web Page!</title>
+        <style>
+            div {
+                border: 3px solid blue;
+                width: 10%;
+            }
+            
+            table {
+                border-collapse: collapse;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+                padding: 3px;
+                width: 50%;
+            }
+            
+            th {
+                background: lightgrey;
+            }
+            
+            img{
+                border-color: lightgrey;
+                border-style: solid;
+                border-width: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>Hello!!</div>
+        
+        <h1 style="color:blue; text-align:center;">Hello World</h1>
+        <h1>Size Compare</h1>
+        <h2>Size Compare</h2>
+        <h3>Size Compare</h3>
+        <h4>Size Compare</h4>
+        <h5>Size Compare</h5>
+        <h6>Size Compare</h6>
+        
+        An unordered list:
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ul>
+        An ordered list:
+        <ol>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ol>
+        
+        <img src="https://media.istockphoto.com/photos/free-price-tag-label-picture-id807772812?k=6&m=807772812&s=612x612&w=0&h=zHwERkj8BgzwtQBM32IKqSmLnfm9o70kV2_acJymkNA="
+        width="10%">
+        
+        <table>
+            <tr>
+                <th>This is great!</th>
+                <th>Table Header</th>
+            </tr>
+            <tr>
+                <td>This is greater!</td>
+                <td>Table Row</td>
+            </tr>
+        </table>
+        
+        <hr>
+        <form>
+            <input type="text" placeholder="Full Name" name="name">
+            <button>Submit</button>
+        </form>
+        
+    </body>
+</html>
